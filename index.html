@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiellanCress Blog</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poiret+One&display=swap" rel="stylesheet">
+    <!--Bootsrap cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div id="main-container">
+        <!-- navbar -->
+       <header>
+            <nav class="navbar navbar-expand-lg bg-transparent" data-bs-theme="dark" >
+                <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">GiellanCress Expeditions</a>
+                <!-- Toggle button -->
+                <button class="navbar-toggler shadow-none border-0 nav-toggle-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Side-Bar -->
+                <div class="offcanvas offcanvas-start side-bar" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                    <!-- SideBar Header -->
+                    <div class="offcanvas-header text-white border-bottom">
+                        <!-- sidebar logo -->
+                        <a class="navbar-brand" href="#">GiellanCress Expeditions</a>
+                        <!-- sidebar close button -->
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <!-- Sidebar Body -->
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                        <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3 gap-4">
+                            <li class="nav-item n-item">
+                                <a class="nav-link active text-light n-link" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item n-item">
+                                <a class="nav-link text-light n-link" aria-current="page" href="#travel-blogs">Blogs</a>
+                            </li>
+                            <li class="nav-item n-item">
+                                <a class="nav-link text-light n-link" aria-current="page" href="#about">About</a>
+                            </li>
+                            <li class="nav-item n-item">
+                                <a class="nav-link text-light n-link" aria-current="page" href="#tips-scroll">Travel Guides</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+              </nav>
+        </header>
+        
+        <!-- home -->
+        <section id="home">
+            <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner mb-0">
+                    <div class="carousel-item active c-item" data-bs-interval="2000">
+                        <img src="./images/country-icons/3.jfif" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center">
+                            <h5>Welcome to <span>GiellanCress Expeditions</span></h5>
+                            <p>Hi I'm GiellanCress, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                        </div>
+                      </div>
+                  <div class="carousel-item c-item" >
+                    <img src="./images/country-icons/B5.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center" data-bs-interval="2000">
+                        <h5>Welcome to <span>GiellanCress Expeditions</span></h5>
+                        <p>Hi I'm GiellanCress, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-item"data-bs-interval="2000">
+                    <img src="./images/about/hi2.jpg" class="d-block w-100 c-img" alt="Tea Gardens, Munnar, Kerala, India">
+                    <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center">
+                        <h5>Welcome to <span>GiellanCress Expeditions</span></h5>
+                        <p>Hi I'm GiellanCress, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-item"data-bs-interval="2000">
+                    <img src="./images/about/beach.jpg" class="d-block w-100 c-img" alt="">
+                    <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center">
+                        <h5>Welcome to <span>GiellanCress Expeditions</span></h5>
+                        <p>Hi I'm GiellanCress, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-item"data-bs-interval="2000">
+                    <img src="./images/country-icons/1.jfif" class="d-block w-100 c-img" alt="Eiffel Tower, Paris, France">
+                    <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center">
+                        <h5>Welcome to <span>GiellanCress Expeditions</span></h5>
+                        <p>Hi I'm GiellanCress, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <!-- country scroll -->
+        <section id="country-scroll">
+            <div class="country country1">
+                <img  src="./images/country-icons/cab.jpg" alt="">
+                <span>CABUGAO</span>
+            </div>
+            <div class="country country2">
+                <img  src="./images/country-icons/2.jfif" alt="">
+                <span>BATAC</span>
+            </div>
+            <div class="country country3">
+                <img  src="./images/country-icons/1.jfif" alt="">
+                <span>NUEVA ERA</span>
+            </div>
+            <div class="country country4">
+                <img  src="./images/country-icons/3.jfif" alt="">
+                <span>VIGAN</span>
+            </div>
+            <div class="country country5">
+                <img  src="./images/country-icons/boh.jpg" alt="">
+                <span>BOHOL</span>
+            </div>
+            <div class="country country6">
+                <img  src="./images/country-icons/ba3.jpg" alt="">
+                <span>BANGUI</span>
+            </div>
+        </section>
+        <!-- Travel blogs -->
+         <section id="travel-blogs" class="container">
+            <div class="section-head">
+                BLOGS
+                <p class="small-text">tap the pictures</p>
+            </div>
+            <div class="section-body">
+                <div class="grid-container">
+                <a href="vigan.html">
+                    <div class="bgcard bg-card1">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>VIGAN</span>
+                            </div>
+                            <p>Step Back in Time: Discover the Charm of Vigan</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="BATAC.html">
+                    <div class="bgcard bg-card2">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>BATAC</span>
+                            </div>
+                            <p>Maipalig Falls: Batac’s Hidden Gem of Serenity</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="bangui.html">
+                    <div class="bgcard bg-card3">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>BANGUI</span>
+                            </div>
+                            <p>Bangui Windmills: The Iconic Giants of Ilocos Norte</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="cabugao.html">
+                    <div class="bgcard bg-card4">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>CABUGAO</span>
+                            </div>
+                            <p>Cabugao’s Gaco River: A Refreshing Escape into Nature</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="nueva.html">
+                    <div class="bgcard bg-card5">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>NUEVA ERA</span>
+                            </div>
+                            <p>Pia-aw Falls, Nueva Era</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="bohol.html">
+                    <div class="bgcard bg-card6">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>BOHOL</span>
+                            </div>
+                            <p>LOBOC RIVER</p>
+                        </div>
+                    </div>
+                </a>
+                </div>
+                </div>
+            </div>
+         </section>
+        <!-- About -->
+        <section id="about" >
+            <div class="about-container">
+                <div 
+                class="about-div">
+                    <h2>MEET THE BLOGGER</h2>
+                    <h4>
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        Exploring the world one adventure at a time, finding beauty in every corner, and sharing stories along the way  </h4>
+
+                    <p>I'm Giellan, an adventurous soul and a tourism student from Northwestern University. I have an insatiable thirst for epic adventures and brand-new discoveries, which I fondly write about and share on this blog, A Wanderful Sole. My idea of a perfect morning is coffee and toast at the beach marveling at a spectacular sunrise or atop a mountain admiring the dreamy sea of clouds. Waterfalls are my first loves, along with panoramic sunsets, chocolates, and cats!</p>
+                    <a class="know-more" href="">Know more about me</a>
+                </div>
+                <div class="about-div">
+                    <div class="img-about-div">
+                        <img src="./images/about/hi.jpg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- packing guides -->
+        <section id="tips-scroll">
+            <div class="scroll-container">
+                <!-- Travel opens your heart -->
+                <div class="scroll-div scroll-div1">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>"Travel opens your heart, broadens your mind, and fills your life with stories to tell."</h4>
+                        <p>Embrace new experiences and make unforgettable memories.</p>
+                    </div>
+                </div>
+                <!-- The world is a book -->
+                <div class="scroll-div scroll-div2">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>"The world is a book, and those who do not travel read only one page."</h4>
+                        <p>Step out, explore, and write your own adventure.</p>
+                    </div>
+                </div>
+                <!-- Adventure awaits -->
+                <div class="scroll-div scroll-div3">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>"Adventure is worthwhile in itself."</h4>
+                        <p>Let every journey be a step towards discovery.</p>
+                    </div>
+                </div>
+                <!-- Travel, the only thing you buy -->
+                <div class="scroll-div scroll-div4">
+                    <div class="tip-div">
+                        <h4>"Travel is the only thing you buy that makes you richer."</h4>
+                        <p>Collect moments, not things.</p>
+                    </div>
+                    <div class="tip-div"></div>
+                </div>
+            </div>
+        
+            <div class="scroll-container">
+                <!-- Not all those who wander -->
+                <div class="scroll-div scroll-div1">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>"Not all those who wander are lost."</h4>
+                        <p>Find yourself in the beauty of new places.</p>
+                    </div>
+                </div>
+                <!-- Take only memories -->
+                <div class="scroll-div scroll-div2">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>"Take only memories, leave only footprints."</h4>
+                        <p>Respect nature, embrace culture, and cherish every moment.</p>
+                    </div>
+                </div>
+                <!-- Life begins at the end of your comfort zone -->
+                <div class="scroll-div scroll-div3">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>"Life begins at the end of your comfort zone."</h4>
+                        <p>Dare to explore beyond the familiar.</p>
+                    </div>
+                </div>
+                <!-- To travel is to live -->
+                <div class="scroll-div scroll-div4">
+                    <div class="tip-div">
+                        <h4>"To travel is to live."</h4>
+                        <p>Experience the world one destination at a time.</p>
+                    </div>
+                    <div class="tip-div"></div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div  class="footer-subdiv">
+                <div class="footer-div main-footer-div">
+                    <h4>Giellan Expeditions</h4>
+                    <button id="newsletter" type="button" class="btn know-more" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        HI!! WELCOME TO MY BLOG
+                    </button>
+                   
+                </div>
+                <div class="footer-div">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#travel-blogs">Blogs</a></li>
+                    <li><a href="#about">About</a></li> <!-- Changed from "#About" to "#about" -->
+                    <li><a href="#tips-scroll">Packing Guides</a></li>
+                </div>
+                <div class="footer-div">
+                    <li class=" main">Latest stories</li>
+                    <li><a href="BATAC.html">batac</a></li>
+                    <li><a href="bangui.html">bangui</a></li>
+                    <li><a href="bohol.html">bohol</a></li>
+                </div>
+                <div class="footer-div">
+                    <li class=" main">Contact Me</li>
+                    <li>giellancress@gmail.com</li>
+                    <div class="icon-collections d-flex justify-content-around">
+                        <!-- Facebook -->
+                        <div class="icon">
+                            <a target="_blank" href="https://www.facebook.com/MadumpJuana">
+                                <i class="fa-brands fa-facebook-f brands"></i>
+                            </a>
+                        </div>
+                        <!-- Instagram -->
+                        <div class="icon">
+                            <a target="_blank" href="https://www.instagram.com/_madamjuana/">
+                                <i class="fa-brands fa-instagram brands"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- Boostrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
