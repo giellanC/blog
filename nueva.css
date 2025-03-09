@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('images/country-icons/pia2.jpg') no-repeat center center/cover;
+    color: #333;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #8B0000;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('vigan-header.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #800000; /* Maroon color */ /* Gold color */
+}
+
+header p {
+    font-size: 18px;
+    color: #800000; /* Maroon color */ /* Orange color */
+}
+
+/* Hero Section */
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Content Section */
+.content, .experience, .gallery {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2, .experience h2, .gallery h2 {
+    color: #800000;
+}
+
+.experience ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* Gallery */
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.images img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+/* Back Button */
+.back-btn {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background: #800000;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background: #800000;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+    header h1 {
+        font-size: 28px;
+    }
+    .gallery .images {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* Background Blur and Gloom Effect */
+body {
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/country-icons/pia2.jpg') no-repeat center center/cover;
+    filter: blur(5px) brightness(75%);
+    z-index: -1;
+}
+
+.experience img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto; /* Centers the image */
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .experience img {
+        width: 90%; /* Makes the image responsive on smaller screens */
+    }
+}

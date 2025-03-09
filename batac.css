@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('images/country-icons/10.jpg') no-repeat center center/cover;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #FF6700; /* Orange */
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('vigan-header.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #FF6700; /* Orange */
+}
+
+header p {
+    font-size: 18px;
+    color: #FF8C42; /* Lighter Orange */
+}
+
+/* Hero Section */
+.hero img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Content Section */
+.content, .experience, .gallery {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2, .experience h2, .gallery h2 {
+    color: #FF6700; /* Orange */
+}
+
+.experience ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* Gallery */
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.images img {
+    width: 100%;
+    max-width: 250px; /* Reduced size */
+    border-radius: 8px;
+}
+
+/* Experience Images */
+.experience img {
+    display: block;
+    max-width: 90%; /* Reduced size */
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Back Button */
+.back-btn {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background: #FF6700; /* Orange */
+    color: white;
+    text-decoration: none;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background: #E65C00; /* Darker Orange */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+    header h1 {
+        font-size: 28px;
+    }
+    .gallery .images {
+        flex-direction: column;
+        align-items: center;
+    }
+    .experience img {
+        width: 85%; /* Smaller images for mobile */
+    }
+}
+
+/* Background Blur Effect */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/country-icons/ED.jpg') no-repeat center center/cover;
+    filter: blur(4px) brightness(80%);
+    z-index: -1;
+}
